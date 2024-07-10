@@ -1,0 +1,132 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    background: #2BC0E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(165deg, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(165deg, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .dots {
+    padding-top: 28px;
+    padding-left: 194px;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(45deg, #ff6f61, #de4313, #c53364); /* Linear gradient color */
+    border-radius: 50%;
+    margin: 5px 0;
+  }
+  
+  .dot-1 {
+    animation: dot 1016.9491525424ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-2 {
+    animation: dot 1034.4827586207ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-3 {
+    animation: dot 1052.6315789474ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-4 {
+    animation: dot 1071.4285714286ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-5 {
+    animation: dot 1090.9090909091ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-6 {
+    animation: dot 1111.1111111111ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-7 {
+    animation: dot 1132.0754716981ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-8 {
+    animation: dot 1153.8461538462ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-9 {
+    animation: dot 1176.4705882353ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-10 {
+    animation: dot 1200ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-11 {
+    animation: dot 1224.4897959184ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-12 {
+    animation: dot 1250ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-13 {
+    animation: dot 1276.5957446809ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-14 {
+    animation: dot 1304.347826087ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-15 {
+    animation: dot 1333.3333333333ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-16 {
+    animation: dot 1363.6363636364ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-17 {
+    animation: dot 1395.3488372093ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-18 {
+    animation: dot 1428.5714285714ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-19 {
+    animation: dot 1463.4146341463ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  .dot-20 {
+    animation: dot 1500ms ease-in-out infinite, color-change 4s linear infinite;
+  }
+  
+  @keyframes dot {
+    0%, 100% {
+      transform: translate3d(50px, 0, 0);
+    }
+    50% {
+      transform: translate3d(-5px, 0, 0);
+    }
+  }
+  
+  @keyframes color-change {
+    0%, 100% {
+      background: linear-gradient(45deg, #ff6f61, #de4313, #c53364); /* Linear gradient color */
+    }
+    25% {
+      background: linear-gradient(45deg, #ffb88c, #ff6f61, #ff4e50); /* Different gradient color */
+    }
+    50% {
+      background: linear-gradient(45deg, #de4313, #c53364, #8e44ad); /* Different gradient color */
+    }
+    75% {
+      background: linear-gradient(45deg, #ffb88c, #ff6f61, #ff4e50); /* Different gradient color */
+    }
+  }
